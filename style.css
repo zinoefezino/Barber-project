@@ -27,6 +27,7 @@ body {
   font-family: "Figtree", sans-serif;
   background-color: #111;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -35,8 +36,8 @@ body {
   align-items: center;
   padding: 20px 50px;
   background: #1a1a1a;
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px; */
+  margin: 0;
 }
 
 .nav-links {
