@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Figtree", sans-serif;
   -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,19 +16,13 @@ body {
   text-size-adjust: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Figtree", sans-serif;
-  background-color: #111;
-  color: #fff;
-  overflow-x: hidden;
+.header {
+  background: #1a1a1a;
 }
 
 .navbar {
@@ -35,7 +30,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background: #1a1a1a;
   /* max-width: 1200px; */
   margin: 0;
 }
